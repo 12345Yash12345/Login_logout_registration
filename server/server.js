@@ -20,10 +20,10 @@ app.use(
 
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'root',
+  user: 'Write_username',
+  password: 'Write_password',
   database: 'infousers',
-  authPlugin: 'root',
+  authPlugin: 'Write_pass',
 });
 
 db.connect((err) => {
